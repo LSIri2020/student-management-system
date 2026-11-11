@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api/students';
+const API = 'https://student-management-api-7zpp.onrender.com/api/students';
 const VIDE = { nom: '', email: '', filiere: '', age: '' };
 
 export default function App() {
